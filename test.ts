@@ -1,5 +1,7 @@
-const add = (a:number, b:number) => {
-    return a + b;
-}
+const add = (a: number, b: number): number => {
+  return a + b;
+};
 
-add(4,5)
+const result = add(4, 5);
+
+console.log(result); 
